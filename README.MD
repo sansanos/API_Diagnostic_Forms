@@ -6,7 +6,7 @@ Este proyecto tiene como propósito desarrollar una solución de automatización
 
 Sobre la API:
 
-La API del formulario de solicitud médica permite enviar datos como: datos personales, del médico remitente y los detalles de las pruebas solicitadas al laboratorio. Esta API implementa validaciones para garantizar la integridad y correcta estructuración de los datos antes de procesarlos.
+La API del formulario de solicitud médica permite enviar datos como: datos personales, datos del médico remitente y los detalles de las pruebas solicitadas al laboratorio. Esta API implementa validaciones para garantizar la integridad y correcta estructuración de los datos antes de procesarlos.
 
 Documentación de la API:
 
@@ -16,7 +16,7 @@ Puedes acceder a la documentación completa de la API en:
 
 Proceso
 
-El flujo automatizado se basa en el envío de solicitudes HTTP a el endpoint "/diagnostic_form/" validando de las respuestas recibidas. 
+El flujo automatizado se basa en el envío de solicitudes HTTP a el endpoint "/diagnostic_form/" validando las respuestas recibidas. 
 
 Para estructurar las pruebas, se sigue este proceso:
 
@@ -29,14 +29,18 @@ Pasos para ejecutar las pruebas
 - Instalar las dependencias necesarias:
         Usando pip:
 
-    pip install requests
+        pip install requests
 
-    pip install pytest
+        pip install pytest
 
 Ejecutar las pruebas:
 
-- Para correr todas las pruebas: pytest
+- Para correr todas las pruebas:
 
-- Para pruebas específicas: pytest test_api.py
+        pytest
+
+- Para pruebas específicas: 
+
+      pytest test_api.py
 
 
