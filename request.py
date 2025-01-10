@@ -2,6 +2,7 @@ import requests
 import configuration
 import data
 
+
 def post_create_form_valid():
     return requests.post(configuration.URL_FORM + configuration.POST_PATH, json=data.post_body_valid, verify=False)
 
