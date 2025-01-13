@@ -68,6 +68,5 @@ El proyecto fue desarrollado utilizando:
 - Lenguaje: Python.
 - Entorno de desarrollo: PyCharm.
 
-El patrón POM permitió organizar y mantener el código de forma eficiente, simulando el flujo completo de un usuario al interactuar con el formulario. Cada paso del flujo fue verificado mediante asserts, garantizando el cumplimiento de las expectativas funcionales y detectando posibles áreas de mejora.
 
 
